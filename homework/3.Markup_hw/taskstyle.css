@@ -4,8 +4,9 @@ body {
     color: black; /* Цвет основного текста */
 }
 p:first-letter {
-    font-size: 20px;
+    font-size: 30px;
     color: red;
+    font-weight: bold;
 }
 h1 {
     text-align: right;
@@ -47,5 +48,5 @@ ul li {font-weight: bold;}
 table tbody tr td:first-child {
     color: orange;
     background-color: white;
-    text-align: center;
+    text-align: left;
 }
