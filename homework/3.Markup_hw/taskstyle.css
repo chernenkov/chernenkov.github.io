@@ -1,0 +1,51 @@
+body {
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: black; /* Цвет основного текста */
+}
+p:first-letter {
+    font-size: 20px;
+    color: red;
+}
+h1 {
+    text-align: right;
+    color: orange; /* Цвет заголовка */
+    font-weight: bold;
+}
+#allotment h2 {
+    color: orange;
+    font-size: 30px;
+    font-weight: normal;
+}
+#warehouse h2 {
+    color: blue;
+    font-size: 30px;
+    font-weight: normal;
+}
+em {
+    background-color: green;
+    color: white
+}
+ul li {font-weight: bold;}
+.fruits-list li {font-weight: normal; color: grey;}
+.vegetables-list li {font-weight: normal; color: red;}
+#warehouse .fruits-list li {font-weight: normal; color: green;}
+
+.students-table thead tr
+{
+    font-weight: bold;
+    text-align: center;
+    background-color:white;
+}
+.students-table tbody tr
+{
+    font-weight: bold;
+    background-color: green;
+    text-align: center;
+    color:white;
+}
+table tbody tr td:first-child {
+    color: orange;
+    background-color: white;
+    text-align: center;
+}
