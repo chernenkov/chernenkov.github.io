@@ -1,0 +1,17 @@
+a[href*="google.com"]
+{
+    color: #666;
+}
+a[href*="ya.ru"]
+{
+    color: #f70;
+}
+a[href*="yandex.ru"]
+{
+    color: #f70;
+    target:"_blank"
+}
+a[href*="yandex.ru"]:after
+{
+    content:"\20aa";
+}
