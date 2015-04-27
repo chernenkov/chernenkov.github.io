@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 40px;
+    background: #a000fb;
+}
+ul {
+    width: 900px;
+    margin: auto;
+}
+.menu {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.menu a {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 10px;
+    color: white;
+    font-family: Impact;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+    background-color: white;
+}

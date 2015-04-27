@@ -1,0 +1,63 @@
+.pager {
+    font-family: monospace;
+    font-size: 14px;
+    width: auto;
+    text-transform: uppercase;
+    margin: 0;
+    position: fixed;
+    top: 30px;
+    left: 50px;
+}
+
+.control a {
+    color: #A142CD;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+}
+
+.control_l {
+    margin: 0 20px;
+}
+
+.control_l:before {
+    content: "« ";
+    font-size: 14px;
+    position: relative;
+    bottom: 1px;
+}
+
+.control_r {
+    margin: 0 20px;
+}
+
+.control_r:after {
+    content: " »";
+    font-size: 14px;
+    position: relative;
+    bottom: 1px;
+}
+
+.control_n {
+    border: solid 1px #cfcfcf;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+span {
+    position: relative;
+    top: 7px;
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.control_n:hover {
+    background-color: #A142CD;
+    color: white;
+}
+
+.control_l:hover,
+.control_r:hover {
+    color: #4e3151;
+}
